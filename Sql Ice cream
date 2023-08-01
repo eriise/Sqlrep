@@ -1,0 +1,16 @@
+##CREATE TABLE sales (
+    week INT,
+    units_sold INT,
+    flavor VARCHAR(50)
+);
+
+INSERT INTO sales (week, units_sold, flavor) VALUES
+(1, 6, 'chocolate'),
+(1, 15, 'lemon'),
+(1, 12, 'strawberry'),
+(1, 6, 'vanilla'),
+-- ... (continue with the rest of the data)
+(52, 10, 'chocolate'),
+(52, 9, 'lemon'),
+(52, 1, 'strawberry'),
+(52, 18, 'vanilla');
